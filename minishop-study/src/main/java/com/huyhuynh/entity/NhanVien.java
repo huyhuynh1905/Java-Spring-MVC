@@ -41,5 +41,12 @@ public class NhanVien {
 		return "NhanVien [id=" + id + ", name=" + name + ", address=" + address + "]";
 	}
 	
+	public void startMethod() {
+		System.out.println("Start Method");
+	}
+	public void destroyMethod() {
+		System.out.println("Destroy Method");
+	}
+	
 	
 }
