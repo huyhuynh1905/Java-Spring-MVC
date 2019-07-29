@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.util.ArrayList;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -65,6 +66,13 @@ public class HomePageMinishopController {
 		//set cac object gui
 		viewDn.addObject("username", user);
 		viewDn.addObject("password", pass);
+		//gui object
+		NhanVien nv1 = new NhanVien("01","Huy","Hue");
+		NhanVien nv2 = new NhanVien("02","Bao","HN");
+		ArrayList<NhanVien> arnv = new ArrayList<NhanVien>();
+		arnv.add(nv1);
+		arnv.add(nv2);
+		viewDn.addObject("listnhanvien",arnv);
 		
 		return viewDn;
 	}
@@ -78,6 +86,14 @@ public class HomePageMinishopController {
 		//set cac object gui
 		modelMap.addAttribute("username", user);
 		modelMap.addAttribute("password", pass);
+		
+		//gui object
+		NhanVien nv1 = new NhanVien("01","Huy","Hue");
+		NhanVien nv2 = new NhanVien("02","Bao","HN");
+		ArrayList<NhanVien> arnv = new ArrayList<NhanVien>();
+		arnv.add(nv1);
+		arnv.add(nv2);
+		modelMap.addAttribute("listnhanvien",arnv);
 		
 		return "/views/modelandview.jsp";
 	}
