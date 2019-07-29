@@ -7,9 +7,11 @@
 		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd
 		http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-4.3.xsd">
 
-	<bean name="nhanvien" class="com.huyhuynh.entity.NhanVien" init-method="startMethod" destroy-method="destroyMethod">
+	<bean name="nhanvien" class="com.huyhuynh.entity.NhanVien">
 		<property name="id" value="1"/>
 		<property name="name" value="Huy Huynh"/>
 		<property name="address" value="HCM"/>
 	</bean>
+	<!-- Resource Loader để khai báo tự động liên kết applecation context -->
+	<bean name="resourceDataLoader" class="com.huyhuynh.controller.DataLoader" autowire="byType"></bean>
 </beans>
