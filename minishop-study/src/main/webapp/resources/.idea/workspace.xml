@@ -4,22 +4,17 @@
     <list default="true" id="ea088f93-3866-42a9-bb39-fefa51d73546" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../../../../../.metadata/.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../.metadata/.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../../.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../../.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../../.metadata/version.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../.metadata/version.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../../Servers/Tomcat v8.5 Server-config/server.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../Servers/Tomcat v8.5 Server-config/server.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../../firstspring/target/m2e-wtp/web-resources/META-INF/maven/com.huyhuynh.testspring/firstspring/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../firstspring/target/m2e-wtp/web-resources/META-INF/maven/com.huyhuynh.testspring/firstspring/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java/com/huyhuynh/controller/DataLoader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java/com/huyhuynh/controller/HomePageMinishopController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../resources/minishopcontainer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../resources/minishopcontainer.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WEB-INF/minishopDispathcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WEB-INF/minishopDispathcher-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/huyhuynh/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/huyhuynh/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/huyhuynh/controller/TrangChu.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/huyhuynh/controller/TrangChu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../views/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../views/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../views/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../target/classes/com/huyhuynh/controller/DataLoader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../target/classes/com/huyhuynh/controller/HomePageMinishopController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../target/classes/minishopcontainer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../target/classes/minishopcontainer.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../target/classes/com/huyhuynh/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../target/classes/com/huyhuynh/controller/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../target/classes/com/huyhuynh/controller/TrangChu.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../target/classes/com/huyhuynh/controller/TrangChu.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../target/m2e-wtp/web-resources/META-INF/maven/com.huyhuynh/minishop-study/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../target/m2e-wtp/web-resources/META-INF/maven/com.huyhuynh/minishop-study/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../target/m2e-wtp/web-resources/META-INF/maven/com.huyhuynh/minishop-study/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../target/m2e-wtp/web-resources/META-INF/maven/com.huyhuynh/minishop-study/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -35,8 +30,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="39">
-              <caret line="42" column="18" lean-forward="true" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
+            <state relative-caret-position="87">
+              <caret line="55" column="34" selection-start-line="55" selection-start-column="34" selection-end-line="55" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -61,8 +56,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="763" />
-    <option name="y" value="173" />
+    <option name="x" value="392" />
+    <option name="y" value="114" />
     <option name="width" value="965" />
     <option name="height" value="619" />
   </component>
@@ -121,15 +116,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1564493019183</updated>
-      <workItem from="1564493026240" duration="5300000" />
+      <workItem from="1564493026240" duration="6283000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5300000" />
+    <option name="totallyTimeSpent" value="6283000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="763" y="173" width="965" height="619" extended-state="0" />
+    <frame x="392" y="114" width="965" height="619" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
@@ -157,8 +152,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/style/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39">
-          <caret line="42" column="18" lean-forward="true" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
+        <state relative-caret-position="87">
+          <caret line="55" column="34" selection-start-line="55" selection-start-column="34" selection-end-line="55" selection-end-column="34" />
         </state>
       </provider>
     </entry>
