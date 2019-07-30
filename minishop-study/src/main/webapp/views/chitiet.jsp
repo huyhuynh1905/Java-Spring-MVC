@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h1>Hello Minishop</h1>
-	<a href="chitiet?id=123&tensp=Muoi">Click to chi tiet</a>
+	<h3>Đây là trang chi tiết ${id} </br></h3>
+	<h3>Tên sp ${tensp} </br></h3>
 </body>
 </html>

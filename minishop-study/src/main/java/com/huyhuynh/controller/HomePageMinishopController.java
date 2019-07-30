@@ -12,6 +12,8 @@ import org.springframework.core.io.Resource;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
@@ -97,6 +99,13 @@ public class HomePageMinishopController {
 		
 		return "/views/modelandview.jsp";
 	}
-	
+
+	//RequestMaping vaf cacs phuowng thuwcs
+	@RequestMapping(path="/chitiet",method = RequestMethod.GET)
+	public String pageChiTiet(ModelMap modelMap, @RequestParam("id") int id, @RequestParam("tensp") String tensp) {
+		modelMap.addAttribute("id",id);
+		modelMap.addAttribute("tensp", tensp);
+		return "/views/chitiet.jsp";
+	}
 	
 }
