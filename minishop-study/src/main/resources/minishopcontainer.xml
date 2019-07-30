@@ -13,5 +13,6 @@
 		<property name="address" value="HCM"/>
 	</bean>
 	<!-- Resource Loader để khai báo tự động liên kết applecation context -->
-	<bean id="resourceDataLoader" class="com.huyhuynh.controller.DataLoader" autowire="byType"></bean>
+	<!-- <bean id="resourceDataLoader" class="com.huyhuynh.controller.DataLoader" autowire="byType"/> -->
+	
 </beans>

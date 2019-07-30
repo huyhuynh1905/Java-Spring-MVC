@@ -4,10 +4,26 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<jsp:include page="/views/header.jsp"/>
+<title>Login</title>
 </head>
-<body>
-	<h1>Hello Minishop</h1>
-	<a href="chitiet?id=123&tensp=Muoi">Click to chi tiet</a>
+<body id="#body-login">
+	<div id="body-flex-login">
+		<div id="container-login">
+			<div id="container-login-left">
+				<div id="header-login-id" class="header-login">
+					<span id="text-logo">Welcome</span> <br/>
+					<span id="hint-text-logo">Hãy tạo nên phong cách của bạn cùng minishop</span>
+				</div>
+				<div >
+					<p><img alt="oval" src='<c:url value="/resources/img/oval.png"/>' /><span>Luôn cập nhật xu hướng thời trang mới nhất</span></p>
+					<p><img alt="oval" src='<c:url value="/resources/img/oval.png"/>' /><span>Giảm 20% cho khách vip</span></p>
+					<p><img alt="oval" src='<c:url value="/resources/img/oval.png"/>' /><span>Tận tình phục vụ cho bạn</span></p>
+				</div>
+			</div>
+			<div id="container-login-right">
+			</div>
+		</div>
+	</div>
 </body>
 </html>
