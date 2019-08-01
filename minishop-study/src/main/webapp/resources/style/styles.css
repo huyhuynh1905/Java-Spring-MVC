@@ -2,8 +2,7 @@ html,body{
     width: 100%;
     height: 100%;
     background-color: aquamarine;
-    font-family: "UTM Marlboro";
-    font-size: 14px;
+    font-family: "Times New Roman";
 }
 #body-login{
     background-color: aquamarine;
@@ -56,8 +55,72 @@ html,body{
     font-family: "Times New Roman";
 }
 
-#container-login-right{
-    width: 440px;
-    height: 610px;
-    background-color: #ffc8c3;
+/*Right-----------------*/
+
+#body-login-right{
+    /*display: flex;
+    flex-direction: column;
+    justify-content: space-between;*/
+}
+#login-right-top{
+    padding: 100px 0px 0px 160px;
+    font-size: 45px;
+    color: #F15353;
+    font-weight: bold;
+    font-family: "Times New Roman";
+}
+#login-right-register{
+    font-size: 20px;
+    margin-top: 220px;
+    margin-left: 15px;
+
+}
+.actived{
+    color: tomato;
+    font-weight: bold;
+    font-style: italic;
+}
+#login-right-form{
+    margin-top: 20px;
+}
+.material-input{
+    border: 1px;
+    height: 38px;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 75px;
+    font-size: 15px;
+}
+.material-button{
+    border: 1px;
+    height: 38px;
+    font-size: 30px;
+    font-family: "UTM Duepuntozero";
+    background-color: #876170;
+    width: 94%;
+    margin-left: 75px;
+    border-radius: 50px;
+    margin-top: 20px;
+    color: white;
+    box-shadow: 0px 2px 4px 0px #000;
+}
+#input-email{
+    border: 1px;
+    height: 38px;
+    width: 80%;
+    margin-top: 20px;
+    margin-left: 75px;
+    background: url("../img/email.png") no-repeat scroll 6px 6px;
+    background-color: #ffffff;
+    padding-left: 45px;
+}
+#input-pass{
+    border: 1px;
+    height: 38px;
+    width: 80%;
+    margin-top: 20px;
+    margin-left: 75px;
+    background: url("../img/key.png") no-repeat scroll 6px 6px;
+    background-color: #ffffff;
+    padding-left: 45px;
 }

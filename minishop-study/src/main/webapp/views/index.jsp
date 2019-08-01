@@ -22,7 +22,20 @@
 					<p><img alt="oval" src='<c:url value="/resources/img/oval.png"/>' /><span>Tận tình phục vụ cho bạn</span></p>
 				</div>
 			</div>
-			<div id="container-login-right">
+			<div id="body-login-right">
+				<div id="login-right-top">
+					<span>Login</span>
+				</div>
+				<div id="login-right-form">
+					<form action="login" method="post">
+						<input id="input-email" placeholder="abcdefgh@email.xyz" class="material-input" type="text" name="email"> <br>
+						<input id="input-pass" placeholder="pass word" class="material-input" type="password" name="password"> <br>
+						<input class="material-button" type="submit" value="Submit">
+					</form>
+				</div>
+				<div id="login-right-register">
+					<span>You don't have account? </span><span class="actived">Register!</span>
+				</div>
 			</div>
 		</div>
 	</div>
