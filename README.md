@@ -1,6 +1,5 @@
 # Java-Spring-MVC
-java spring mvc
----
+
 I. Cấu hình:
 1. web.xml
  ```
