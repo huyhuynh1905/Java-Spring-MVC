@@ -45,9 +45,9 @@ III. Cấu Hình Kết nối CSDL:
 		<!-- Kết nối csdl mysql -->
 		<!-- https://mvnrepository.com/artifact/commons-dbcp/commons-dbcp -->
 		<dependency>
-			<groupId>commons-dbcp</groupId>
-			<artifactId>commons-dbcp</artifactId>
-			<version>1.4</version>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-dbcp2</artifactId>
+			<version>2.1.1</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
 		<dependency>
@@ -77,7 +77,7 @@ III. Cấu Hình Kết nối CSDL:
 	<bean id="dataSource"
 		class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
 		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
-		<property name="url" value="jdbc:mysql://localhost:3306/databaseName" />
+		<property name="url" value="jdbc:mysql://localhost:3306/databaseName?serverTimezone=EST5EDT" />
 		<property name="username" value="root" />
 		<property name="password" value="" />
 	</bean>
