@@ -77,7 +77,7 @@ III. Cấu Hình Kết nối CSDL:
 	<bean id="dataSource"
 		class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
 		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
-		<property name="url" value="jdbc:mysql://localhost:3306/databaseName?serverTimezone=EST5EDT" />
+		<property name="url" value="jdbc:mysql://localhost:3306/databaseName?serverTimezone=Asia/Ho_Chi_Minh" />
 		<property name="username" value="root" />
 		<property name="password" value="" />
 	</bean>
