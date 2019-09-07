@@ -38,3 +38,63 @@ II. Code
 	    return "result_ok";
 	  }
 ```
+
+III. Cấu Hình Kết nối CSDL:
+1. Thư viện cần:
+```
+		<!-- Kết nối csdl mysql -->
+		<!-- https://mvnrepository.com/artifact/commons-dbcp/commons-dbcp -->
+		<dependency>
+			<groupId>commons-dbcp</groupId>
+			<artifactId>commons-dbcp</artifactId>
+			<version>1.4</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>8.0.13</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>6.0.6</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.springframework/spring-jdbc -->
+		<dependency>
+		    <groupId>org.springframework</groupId>
+		    <artifactId>spring-jdbc</artifactId>
+		    <version>5.1.5.RELEASE</version>
+		</dependency>
+
+```
+2. Cấu hình ở bean:
+```
+	<bean id="corporateEventDao" class="com.example.JdbcCorporateEventDao">
+        	<property name="dataSource" ref="dataSource"/>
+    	</bean>
+	<bean id="dataSource"
+		class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
+		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
+		<property name="url" value="jdbc:mysql://localhost:3306/databaseName" />
+		<property name="username" value="root" />
+		<property name="password" value="" />
+	</bean>
+```
+3. Code tạo một class kết nối
+```
+@Repository
+public class DatabaseOrderCoffee{
+	
+	private JdbcTemplate jdbcTemplate;
+	
+	@Autowired
+	public void setDataSource(DataSource dataOrderCoffee) {
+		this.jdbcTemplate = new JdbcTemplate(dataOrderCoffee);
+	}
+	
+	//Các phương thức truy vấn,...
+	
+}
+```
