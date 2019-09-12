@@ -10,7 +10,18 @@ I. Cấu hình:
          version="3.1">
 </web-app>
 ```
-2. Commons Fileupload:
+
+II. Code
+1. Code upload ảnh từ Android lên Server sử dụng mvc:
+- Thêm vào servlet bean:
+```xml
+	<!-- Cấu hình để upload file -->
+	<bean id="multipartResolver"
+		class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+		<property name="maxUploadSize" value="268435456" />
+	</bean>
+```
+- Thư viện Commons Fileupload:
 ```
 <!-- https://mvnrepository.com/artifact/commons-fileupload/commons-fileupload -->
 <dependency>
@@ -19,9 +30,8 @@ I. Cấu hình:
     <version>1.3.3</version>
 </dependency>
 ```
-II. Code
-1. Code upload ảnh từ Android lên Server sử dụng mvc:
-```
+-Code upload file nhận lên từ retrofitandroid
+```java
 @RequestMapping(value = "/uploadanh", method = RequestMethod.POST)
 	@ResponseBody
 	public String uploadFile(@RequestParam("imageFile") MultipartFile imageFile) {
@@ -38,7 +48,6 @@ II. Code
 	    return "result_ok";
 	  }
 ```
-
 III. Cấu Hình Kết nối CSDL:
 1. Thư viện cần:
 ```
