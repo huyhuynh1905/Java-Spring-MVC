@@ -20,9 +20,9 @@
 		<property name="suffix" value=".jsp" />
 	</bean>
 
-	<!--
+	
 	<mvc:interceptors>
-		<bean class="com.huyhuynh.corespring,interceptor.MenuHandleInterceptor"></bean>
-	</mvc:interceptors>  -->
+		<bean class="com.huyhuynh.corespring.interceptor.MenuHandleInterceptor"></bean>
+	</mvc:interceptors> 
 	
 </beans>

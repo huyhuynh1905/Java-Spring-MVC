@@ -4,11 +4,10 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Home Page</title>
+<title>Insert title here</title>
 </head>
-
 <body>
-	<h1>Trang chủ</h1>
+	<h1>Spring page</h1>
 	<%@ include file="menu.jsp" %>  
 </body>
 </html>
